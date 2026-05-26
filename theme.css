@@ -8,6 +8,12 @@ body {
 	--toggle-radius: 0px;
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
+	--h1-size: 2.2em;
+	--h2-size: 2.0em;
+	--h3-size: 1.8em;
+	--h4-size: 1.6em;
+	--h5-size: 1.4em;
+	--h6-size: 1.2em;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
@@ -31,4 +37,8 @@ svg * {
 
 .menu-separator {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+}
+
+.math-block > mjx-container[jax="CHTML"] {
+  text-align: left !important;
 }
